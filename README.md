@@ -7,13 +7,13 @@ This project analyzes customer shopping behavior using transactional data from 3
 This project demonstrates a complete, end-to-end data analysis pipeline:
 
 
-Python (Pandas): Performed initial data preparation and cleaning. Handled missing data by imputing the median rating for the review rating column based on product category. Standardized column names to snake case for better readability and engineered new features like age_group.
+***Python (Pandas):*** Performed initial data preparation and cleaning. Handled missing data by imputing the median rating for the review rating column based on product category. Standardized column names to snake case for better readability and engineered new features like age_group.
 
 
-PostgreSQL: Connected the Python script to PostgreSQL and loaded the cleaned DataFrame for SQL analysis. Executed complex aggregations and structured queries to answer key business questions.
+***PostgreSQL:*** Connected the Python script to PostgreSQL and loaded the cleaned DataFrame for SQL analysis. Executed complex aggregations and structured queries to answer key business questions.
 
 
-Power BI: Built an interactive dashboard to visually present KPIs, demographic breakdowns, and category performance for stakeholders.
+***Power BI:*** Built an interactive dashboard to visually present KPIs, demographic breakdowns, and category performance for stakeholders.
 
 📊 **Key Business Insights**
 **1. Demographic Revenue Gaps**
